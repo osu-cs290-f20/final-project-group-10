@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SirSheeper/WebDevFinal.git"
+    "url": "git+https://github.com/osu-cs290-f20/final-project-group-10.git"
   },
   "author": "Huy Nguyen, Jacob Bean, Trey Husko, Satoru Yamamoto",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/SirSheeper/WebDevFinal/issues"
+    "url": "https://github.com/osu-cs290-f20/final-project-group-10/issues"
   },
-  "homepage": "https://github.com/SirSheeper/WebDevFinal#readme",
+  "homepage": "https://github.com/osu-cs290-f20/final-project-group-10#readme",
   "dependencies": {
     "epxress": "^0.0.1-security",
     "express": "^4.17.1",
