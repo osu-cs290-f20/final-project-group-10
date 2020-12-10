@@ -36,12 +36,12 @@ function turnPost(event){
     clickCount +=1;
 
   	if(clickCount == 1){
-  		card1 = event.target.parentElement.parentElement.parentElement
+  		card1 = event.target.parentElement.parentElement.parentElement;
   		//console.log(card1.attributes[1].textContent)
   	}
   	if(clickCount == 2){
 
-  		card2 = event.target.parentElement.parentElement.parentElement
+  		card2 = event.target.parentElement.parentElement.parentElement;
   		//console.log(card2.attributes[1].textContent)
 
   		if(card1.attributes[1].textContent == card2.attributes[1].textContent){
@@ -54,9 +54,9 @@ function turnPost(event){
   			for(var i = 0; i < turnPostButton.length; i++){
   				turnPostButton[i].removeEventListener('click', turnPost);
   			}
-  			sleep(2000).then(()=>{
-  				card1.children[0].children[0].children[0].classList.add('turn-card')
-  				card2.children[0].children[0].children[0].classList.add('turn-card')
+  			sleep(1000).then(()=>{
+  				card1.children[0].children[0].children[0].classList.add('turn-card');
+  				card2.children[0].children[0].children[0].classList.add('turn-card');
   				for(var i = 0; i < turnPostButton.length; i++){
   					turnPostButton[i].addEventListener('click', turnPost);
   				}
@@ -71,8 +71,8 @@ function turnPost(event){
       sleep(2000).then(()=>{
 			console.log("you win!");
 
-			document.getElementById("you-win").children[0].classList.remove("hidden")
-			person = prompt("Please enter your name to be added to winner's list", "Your name")
+			document.getElementById("you-win").children[0].classList.remove("hidden");
+			person = prompt("Please enter your name to be added to winner's list", "Your name");
 			console.log("== person", person);
 			createWinner(person, totalSeconds);
 
@@ -134,11 +134,11 @@ function startGame() {
 		tempvalue = cards[currentIndex];
 		cards[currentIndex] = cards[randomIndex];
 		cards[randomIndex] = tempvalue;
-		cards[randomIndex].children[0].children[0].children[0].classList.add('turn-card')
+		cards[randomIndex].children[0].children[0].children[0].classList.add('turn-card');
 		deck.appendChild(cards[randomIndex]);
 	}
 }
 //we need a counter, and after 2 clicks if the match is wrong flip back over, if the back is right, dont flip and add to score
 
-document.getElementById("game-start-button").addEventListener("click", startGame)
-document.getElementById("game-start-button").addEventListener("click", resetTimer)
+document.getElementById("game-start-button").addEventListener("click", startGame);
+document.getElementById("game-start-button").addEventListener("click", resetTimer);
