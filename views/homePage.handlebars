@@ -1,0 +1,41 @@
+
+    <main class="content">
+      <aside class="filter-container">
+      <section class = "names">
+        <h2>Winners!</h2>
+		  {{#each nameData}}
+      {{> winner}}
+      {{/each}}
+    </section>
+        <br>
+      Time Score: <label id="minutes">00</label>:<label id="seconds">00</label>
+      </aside>
+
+      <!--
+      TO DO
+
+      These post should be suffled.
+      Q: how do we shaffle? -> shaffle them when user click shaffle?
+      ----------------------------------------------------------------->
+      <section id="deck">
+
+      {{#each gameData}}
+        {{> gameCard}}
+      {{/each}}
+
+
+      </section>
+
+    </main>
+
+    <button type="button" id="game-start-button">START (shuffle)</button>
+
+    <div id="you-win">
+		<div class = "hidden">
+              <img class = "you-win" src = "fruit_and_veggie/youwin!.jpg" alt ="win" >
+		</div>
+	</div>
+
+
+  </body>
+</html>

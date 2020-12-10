@@ -1,0 +1,68 @@
+[
+        {
+            "cardName": "apple",
+            "url": "fruit_and_veggie/apple.png"
+        },
+        {
+            "cardName": "apple",
+            "url": "fruit_and_veggie/apple.png"
+        },
+        {
+            "cardName": "banana",
+            "url": "fruit_and_veggie/banana.png"
+        },
+        {
+            "cardName": "banana",
+            "url": "fruit_and_veggie/banana.png"
+        },
+        {
+            "cardName": "brocoli",
+            "url": "fruit_and_veggie/brocoli.png"
+        },
+        {
+            "cardName": "brocoli",
+            "url": "fruit_and_veggie/brocoli.png"
+        },
+        {
+            "cardName": "carrot",
+            "url": "fruit_and_veggie/carrot.png"
+        },
+        {
+            "cardName": "carrot",
+            "url": "fruit_and_veggie/carrot.png"
+        },
+        {
+             "cardName": "cherry",
+             "url": "fruit_and_veggie/cherry.png"
+        },
+        {
+            "cardName": "cherry",
+            "url": "fruit_and_veggie/cherry.png"
+        },
+        {
+            "cardName": "grape",
+            "url": "fruit_and_veggie/grape.png"
+        },
+        {
+           "cardName": "grape",
+           "url": "fruit_and_veggie/grape.png"
+        },
+        {
+            "cardName": "strawberry",
+            "url": "fruit_and_veggie/strawberry.png"
+        },
+        {
+           "cardName": "strawberry",
+           "url": "fruit_and_veggie/strawberry.png"
+        }, 
+        {
+            "cardName": "pineapple",
+            "url": "fruit_and_veggie/pineapple.png"
+        },
+        {
+           "cardName": "pineapple",
+           "url": "fruit_and_veggie/pineapple.png"
+        }                          
+
+
+]
