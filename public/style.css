@@ -5,7 +5,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #d36b16;
+  color: #f67811;
 }
 
 a:hover {
@@ -130,6 +130,14 @@ header a {
   border: 1px solid #ababab;
   border-radius: 3px;
   background: #efefef;
+}
+.error-container{
+  text-align: center;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 3px 3px;
 }
 
 #game-start-button {
